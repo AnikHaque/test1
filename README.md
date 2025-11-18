@@ -1,12 +1,4 @@
-<h1 align="center">✨ TypeScript – Interfaces vs Types</h1>
-
-<p align="center">
-  পরিষ্কারভাবে বুঝে নাও Interface ও Type–এর মূল পার্থক্যগুলি  
-</p>
-
-<hr/>
-
-<h2>🔍 What are some differences between <strong>Interfaces</strong> and <strong>Types</strong> in TypeScript?</h2>
+<h2> What are some differences between <strong>Interfaces</strong> and <strong>Types</strong> in TypeScript?</h2>
 
 <p>
 TypeScript-এ আমরা দু’টো জিনিস খুব বেশি দেখি—<code>interface</code> আর <code>type</code>।  
@@ -16,14 +8,14 @@ TypeScript-এ আমরা দু’টো জিনিস খুব বেশ�
 
 <br/>
 
-<h3>✅ ১) Structure ডিফাইন করা — দুটোই পারে</h3>
+<h3> ১) Structure ডিফাইন করা — দুটোই পারে</h3>
 <p>
 Object-এর shape কেমন হবে—এটা <code>interface</code> এবং <code>type</code> দুটোই দিয়ে লেখা যায়।
 </p>
 
 <br/>
 
-<h3>✅ ২) Interface সহজে Expand করা যায়</h3>
+<h3> ২) Interface সহজে Expand করা যায়</h3>
 <p>
 Interface সহজে merge হয়ে যায়, মানে একই নামে দুইবার লিখলে TypeScript স্বয়ংক্রিয়ভাবে একসাথে যুক্ত করে ফেলে।
 </p>
@@ -43,7 +35,7 @@ interface User { age: number; }
 
 <br/>
 
-<h3>✅ ৩) Type বেশি Flexible</h3>
+<h3> ৩) Type বেশি Flexible</h3>
 <p>
 Type alias দিয়ে union, intersection, primitive, function signature, tuple সহ আরও নানা কিছু করা যায়।
 </p>
@@ -56,21 +48,21 @@ Type alias দিয়ে union, intersection, primitive, function signature, tupl
 
 <br/>
 
-<h3>✅ ৪) Interface মূলত Object Structure-এর জন্য</h3>
+<h3> ৪) Interface মূলত Object Structure-এর জন্য</h3>
 <p>
 Interface class এবং object-ভিত্তিক ডিজাইনে বেশি উপযোগী, তাই OOP স্টাইলে interface ব্যবহার বেশি স্বাভাবিক।
 </p>
 
 <br/>
 
-<h3>✅ ৫) Performance বা Runtime-এ কোনো প্রভাব নেই</h3>
+<h3> ৫) Performance বা Runtime-এ কোনো প্রভাব নেই</h3>
 <p>
 দুটোই compile-time construct। JavaScript-এ এদের কোনো অস্তিত্ব থাকে না—তাই performance-এ কোনো পার্থক্য নেই।
 </p>
 
 <hr/>
 
-<h1>⚡ Union & Intersection Types in TypeScript</h1>
+<h1> Provide an example of using union and intersection types in TypeScript. </h1>
 
 <p>
 TypeScript-এ union এবং intersection খুব গুরুত্বপূর্ণ।  
@@ -79,7 +71,7 @@ TypeScript-এ union এবং intersection খুব গুরুত্বপ�
 
 <br/>
 
-<h2>🟦 Union Type — “এটা অথবা সেটা”</h2>
+<h2> Union Type </h2>
 
 <p>
 Union টাইপ মানে variable একাধিক টাইপের যেকোনো একটিকে গ্রহণ করতে পারে।
@@ -101,7 +93,7 @@ printId("A-102");
 
 <br/>
 
-<h2>🟩 Intersection Type — “এটা এবং সেটা দুটোই”</h2>
+<h2> Intersection Type </h2>
 
 <p>
 Intersection টাইপ দুই বা তার বেশি টাইপের সমস্ত property নিয়ে একটি নতুন টাইপ তৈরি করে।
@@ -123,9 +115,5 @@ const user: Staff = {
 
 <p><strong>Staff</strong> টাইপে এখন দুটো property-ই বাধ্যতামূলক — <code>name</code> এবং <code>employeeId</code>।</p>
 
-<br/>
 
-<hr/>
 
-<h2 align="center">🎉 End of Document</h2>
-<p align="center">এই README ফাইলটি সুন্দরভাবে ডিজাইন করা হলো, GitHub-এ ব্যবহার করতে পারবেন সরাসরি।</p>
